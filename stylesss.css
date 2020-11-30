@@ -1,0 +1,106 @@
+*
+  {
+  	margin: 0px;
+  	padding:0px;
+  	 box-sizing: border-box;
+  }
+   body{
+    background-image: url(25.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+   }
+   .menu-bar
+   {
+   	  background: rgb(90,100, 40);
+   	  text-align: center;
+   }
+   .menu-bar ul{
+   	 display: inline-flex;
+   	 list-style: none;
+   	 color: #fff;
+   }
+   .menu-bar ul li{
+       width: 150px;
+       margin: 10px;
+       padding: 15px;
+   }
+   .menu-bar ul li a{
+   	text-decoration: none;
+   	color: #fff;
+   }
+   .active,.menu-bar ul li:hover
+   {
+   	background: rgba(60,100,10);
+   	border-radius: 5px;
+
+   }
+   .menu-bar .fa{
+   	margin-right: 8px;
+   }
+     .sub-menu-bar-1{
+     	display: none;
+     }
+     .menu-bar ul li:hover .sub-menu-bar-1
+     {
+     	display: block;
+     	position: absolute;
+     	background: rgb(60,100,10);
+     	margin-top: 10px;
+     	margin-left: -15px;
+     }
+      .menu-bar ul li:hover .sub-menu-bar-1 ul
+      {
+      	display: block;
+      	margin: 10px;
+      	padding: 4px;
+      	margin-left: -13px;
+      	margin-right: -14px;
+      }
+      .menu-bar ul li:hover .sub-menu-bar-1 ul li
+      {
+         width: 150px;
+         padding: 8px;
+         border-bottom: 0.1px dotted  #fff;
+         background: transparent;
+         border-radius: 0px;
+         text-align: left;
+
+      }
+      .menu-bar ul li:hover .sub-menu-bar-1 ul li:last-child
+
+      {
+      	border-bottom: none;
+      }
+      .menu-bar ul li:hover .sub-menu-bar-1 ul li a:hover
+      {
+      	color: #ffb;
+      }
+      .fa-angle-right{
+      	float: right;
+      }
+      .sub-menu-bar-2
+      {
+      	display: none;
+      }
+      .hover-me:hover .sub-menu-bar-2
+      {
+      	display: block;
+     	position: absolute;
+     	background: rgb(60,100,10);
+     	margin-top: -40px;
+     	margin-left: 140px;
+      }
+      .sub-menu-bar-3
+      {
+      	display: none;
+      }
+      .hover-me:hover .sub-menu-bar-3
+      {
+
+      	display: block;
+     	position: absolute;
+     	background: rgb(60,100,10);
+     	margin-top: -30px;
+     	margin-left: 150px;
+      }
